@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": "off",
+    "prettier/prettier": [
+      "warn",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "printWidth": 100
+      }
+    ]
+  }
+}

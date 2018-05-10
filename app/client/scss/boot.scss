@@ -1,0 +1,49 @@
+@import "~sassline/assets/sass/sassline-base";
+@import "~flexboxgrid/css/flexboxgrid.min.css";
+
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-opacity: .5;
+  stroke-width: .5px;
+  pointer-events: none;
+}
+
+.timezones {
+  fill: #222;
+}
+
+.timezones :hover {
+  fill: orange;
+}
+
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+  pointer-events: none;
+}
+
+.header {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.user-image-col {
+  max-width: 5rem;
+}
+.user-image {
+  width: 3rem;
+}
+
+.btn {
+  width: auto;
+  display: inline-block;
+  padding: 0.4rem 2rem 0.6rem;
+  line-height: 2rem;
+  border: 2px solid darkblue;
+  font-weight: 200;
+  color: grey;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}

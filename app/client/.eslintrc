@@ -1,0 +1,13 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 6
+  },
+  "extends": [
+    "../.eslintrc"
+  ],
+  "env": {
+    "browser": true
+  }
+}

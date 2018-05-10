@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  .row.center-xs
+    .col-xs-6
+      h1
+        | Generate your Slack map
+      div
+        a(href=`https://slack.com/oauth/authorize?scope=users:read&client_id=${slackClientId}&redirect_uri=${redirect}`)
+          img(src="https://api.slack.com/img/sign_in_with_slack.png")
